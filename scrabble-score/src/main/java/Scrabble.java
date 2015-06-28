@@ -1,8 +1,9 @@
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Scrabble {
     long score;
-    String input;
+    String[] input;
 
     private static enum SCORE {
         A(1), E(1), I(1), O(1), U(1), L(1), N(1), R(1), S(1), T(1),
@@ -21,17 +22,19 @@ public class Scrabble {
     }
 
     public Scrabble(String input){
-        this.input=input.toUpperCase().replaceAll("[^A-Z]", "");
+        if (Objects.isNull(input)){ input="";}
+        this.input=input.toUpperCase().replaceAll("[^A-Z]", "").split("");
         scoreWord();
     }
 
     private void scoreWord(){
-        Arrays.stream(input.split("")).forEach((tile)->{
-            score+=SCORE.get(tile);
+        Arrays.stream(input).forEach((tile)->{
+            score+=tile.isEmpty() ? 0 : SCORE.get(tile);
         });
     }
 
     public long getScore(){
         return score;
     }
-}
+};
+
