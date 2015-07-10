@@ -1,26 +1,31 @@
 import java.util.*;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class DNA {
-    Character[] els = {'A', 'C', 'G', 'T'};
-    Pattern re = Pattern.compile("[^ACGT]+");
-    List<String> strand;
-    HashMap<Character, Integer> histogram;
+    private static Character[] els = {'A', 'C', 'G', 'T'};
+    private static Pattern re = Pattern.compile("[^ACGT]+");
+    private static List<String> strand;
+    private static Map histogram=new HashMap();
 
     public DNA(String strand) {
         this.strand = Arrays.asList(strand.split(""));
-        histogram = new HashMap<>();
-        Arrays.stream(els).forEach((el) -> {
-            histogram.put(el, count(el));
-        });
+        histogram = Arrays.asList(els).stream().parallel()
+                .collect(Collectors.toMap(
+                        el -> el,
+                        el -> countEls(el)));
     }
 
-    public Integer count(Character nuc) {
+    private static Integer countEls (Character nuc){
         if (re.matcher(nuc.toString()).matches()) throw (new IllegalArgumentException());
         return Collections.frequency(strand, nuc.toString());
     }
 
+    public static Integer count(Character nuc){
+        return histogram.containsKey(nuc) ? (Integer)histogram.get(nuc) : countEls(nuc);
+    }
+
     public Map<Character, Integer> nucleotideCounts() {
-        return histogram;
+        return Collections.unmodifiableMap(histogram);
     }
 }

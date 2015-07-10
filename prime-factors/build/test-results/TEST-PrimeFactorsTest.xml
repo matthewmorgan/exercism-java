@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimeFactorsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2015-06-28T13:48:34" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.032">
+  <properties/>
+  <testcase name="test[Prime factors of 1 = []]" classname="PrimeFactorsTest" time="0.001"/>
+  <testcase name="test[Prime factors of 2 = [2]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 3 = [3]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 4 = [2, 2]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 6 = [2, 3]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 8 = [2, 2, 2]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 9 = [3, 3]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 27 = [3, 3, 3]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 625 = [5, 5, 5, 5]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 901,255 = [5, 17, 23, 461]]" classname="PrimeFactorsTest" time="0.0"/>
+  <testcase name="test[Prime factors of 93,819,012,551 = [11, 9539, 894119]]" classname="PrimeFactorsTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

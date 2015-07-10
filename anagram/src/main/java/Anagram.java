@@ -1,24 +1,26 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Anagram {
-    String[] word;
-    String sortedWord="";
+    String sortedLetters = "";
 
-    public Anagram(String word){
-        this.word=word.toLowerCase().split("");
-        Arrays.sort(this.word);
-        sortedWord=Arrays.toString(this.word);
+    public Anagram(String word) {
+        sortedLetters = sortChars(word);
     }
 
-    public List<String> match(List<String> possibles){
-        ArrayList<String> matches=new ArrayList<>();
-        possibles.stream().forEach((possible)->{
-            String[] sorted=possible.toLowerCase().split("");
-            Arrays.sort(sorted);
-            if (Arrays.toString(sorted).equals(sortedWord)){ matches.add(possible); }
-        });
-        return matches;
+    public List<String> match(List<String> possibles) {
+        return possibles.stream()
+                .filter(this::matches)
+                .collect(Collectors.toList());
+    }
+
+    private boolean matches(String possibleWord) {
+        return sortChars(possibleWord).equals(sortedLetters);
+    }
+
+    private String sortChars(String input){
+        String[] sorted=input.toLowerCase().split("");
+        Arrays.sort(sorted);
+        return Arrays.toString(sorted);
     }
 }
