@@ -7,6 +7,8 @@ repositories {
 }
 
 dependencies {
+  compile files('src/libs/guava-18.0.jar')
+  testCompile files('src/libs/guava-18.0.jar')
   testCompile "junit:junit:4.10"
   testCompile "org.easytesting:fest-assert-core:2.0M10"
 }

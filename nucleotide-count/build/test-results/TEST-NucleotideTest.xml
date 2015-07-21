@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NucleotideTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-07-07T10:34:14" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.054">
+<testsuite name="NucleotideTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-07-21T01:41:49" hostname="Matthew-Morgans-MacBook-Pro.local" time="1.745">
   <properties/>
-  <testcase name="testDnaCountsDoNotChangeAfterCountingAdenosine" classname="NucleotideTest" time="0.049"/>
-  <testcase name="testEmptyDnaStringHasNoAdenosine" classname="NucleotideTest" time="0.002"/>
-  <testcase name="testEmptyDnaStringHasNoNucleotides" classname="NucleotideTest" time="0.001"/>
+  <testcase name="testRepetitiveSequenceWithOnlyGuanosine" classname="NucleotideTest" time="0.05"/>
+  <testcase name="testCountsANucleotideOnlyOnce" classname="NucleotideTest" time="0.003"/>
+  <testcase name="testEmptyDnaStringHasNoAdenosine" classname="NucleotideTest" time="0.0"/>
   <testcase name="testRepetitiveCytidineGetsCounted" classname="NucleotideTest" time="0.0"/>
-  <testcase name="testRepetitiveSequenceWithOnlyGuanosine" classname="NucleotideTest" time="0.0"/>
   <testcase name="testCountsOnlyThymidine" classname="NucleotideTest" time="0.0"/>
-  <testcase name="testCountsANucleotideOnlyOnce" classname="NucleotideTest" time="0.0"/>
   <testcase name="testValidatesNucleotides" classname="NucleotideTest" time="0.0"/>
-  <testcase name="testCountsAllNucleotides" classname="NucleotideTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testCountsAllNucleotides" classname="NucleotideTest" time="0.003"/>
+  <testcase name="testHandlesReallyReallyReallyLongStrands" classname="NucleotideTest" time="1.686"/>
+  <testcase name="testDnaCountsDoNotChangeAfterCountingAdenosine" classname="NucleotideTest" time="0.0"/>
+  <testcase name="testEmptyDnaStringHasNoNucleotides" classname="NucleotideTest" time="0.0"/>
+  <system-out><![CDATA[Build: 2ms
+Average sequencing: 0.1645ms  (expected 0.7083333333333334ms.)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

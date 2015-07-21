@@ -1,31 +1,49 @@
 import java.util.*;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class DNA {
-    private static Character[] els = {'A', 'C', 'G', 'T'};
-    private static Pattern re = Pattern.compile("[^ACGT]+");
-    private static List<String> strand;
-    private static Map histogram=new HashMap();
+    private static Map<Character, Integer> map;
 
     public DNA(String strand) {
-        this.strand = Arrays.asList(strand.split(""));
-        histogram = Arrays.asList(els).stream().parallel()
-                .collect(Collectors.toMap(
-                        el -> el,
-                        el -> countEls(el)));
+        map = getMapFromStrand(strand);
     }
 
-    private static Integer countEls (Character nuc){
-        if (re.matcher(nuc.toString()).matches()) throw (new IllegalArgumentException());
-        return Collections.frequency(strand, nuc.toString());
+    private Map<Character, Integer> getMapFromStrand(String strand){
+         return strand.chars().parallel()
+                .collect(Counts::new, Counts::increment, Counts::combine)
+                .buildMap();
     }
 
-    public static Integer count(Character nuc){
-        return histogram.containsKey(nuc) ? (Integer)histogram.get(nuc) : countEls(nuc);
+    public int count(Character nuc) {
+        if (!map.containsKey(nuc)) { throw new IllegalArgumentException(); }
+        return map.get(nuc);
     }
 
+    private static class Counts {
+        private int a,c,g,t;
+
+        private void increment( int nuc){
+            switch (nuc){
+                case 'A' : { a++; break; }
+                case 'C' : { c++; break; }
+                case 'G' : { g++; break; }
+                case 'T' : { t++; break; }
+            }
+        }
+
+        private void combine(Counts other){
+            a+=other.a; c+=other.c; g+=other.g; t+=other.t;
+        }
+
+        private Map<Character, Integer> buildMap(){
+            HashMap<Character, Integer> map=new HashMap<>();
+            map.put('A',a);
+            map.put('C',c);
+            map.put('G',g);
+            map.put('T',t);
+            return Collections.unmodifiableMap(map);
+        }
+    }
     public Map<Character, Integer> nucleotideCounts() {
-        return Collections.unmodifiableMap(histogram);
+        return map;
     }
 }

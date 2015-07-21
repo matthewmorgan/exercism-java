@@ -18,5 +18,14 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.easytesting:fest-assert-core:2.0M10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: guava-18.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/libs/guava-18.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
