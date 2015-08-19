@@ -1,19 +1,21 @@
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
-public class DNA {
+public final class DNA {
     private static Map<Character, Integer> map;
 
     public DNA(String strand) {
         map = getMapFromStrand(strand);
     }
 
-    private Map<Character, Integer> getMapFromStrand(String strand){
+    private static Map<Character, Integer> getMapFromStrand(String strand){
          return strand.chars().parallel()
                 .collect(Counts::new, Counts::increment, Counts::combine)
                 .buildMap();
     }
 
-    public int count(Character nuc) {
+    public static int count(Character nuc) {
         if (!map.containsKey(nuc)) { throw new IllegalArgumentException(); }
         return map.get(nuc);
     }
@@ -21,7 +23,7 @@ public class DNA {
     private static class Counts {
         private int a,c,g,t;
 
-        private void increment( int nuc){
+        private void increment(int nuc){
             switch (nuc){
                 case 'A' : { a++; break; }
                 case 'C' : { c++; break; }
@@ -43,7 +45,7 @@ public class DNA {
             return Collections.unmodifiableMap(map);
         }
     }
-    public Map<Character, Integer> nucleotideCounts() {
+    public static Map<Character, Integer> nucleotideCounts() {
         return map;
     }
 }

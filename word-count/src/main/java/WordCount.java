@@ -1,24 +1,15 @@
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
-public class WordCount {
-    public Map<String, Integer> Phrase(String input){
-        input=input.replaceAll("[^0-9a-zA-Z\\s]", "");
-        HashMap<String, Integer> result=new HashMap<>();
-        Pattern white = Pattern.compile("\\s");
+public final class WordCount {
+    final static Pattern onSpace = Pattern.compile("\\s");
 
-        Arrays.stream(white.split(input.toLowerCase())).forEach((word)->{
-            if (word.trim().length()>0){
-                if (Objects.nonNull(result.get(word))){
-                    result.put(word, result.get(word)+1);
-                } else {
-                    result.put(word, 1);
-                }
-            }
-        });
-        return result;
+    public final static Map<String, Integer> Phrase(String input) {
+        final String cleaned = input.replaceAll("[^0-9A-Za-z\\s]", "").toLowerCase();
+
+        return onSpace.splitAsStream(cleaned)
+                .filter(word -> word.length() > 0)
+                .collect(Collectors.groupingBy(word -> word, Collectors.summingInt(word -> 1)));
     }
 }

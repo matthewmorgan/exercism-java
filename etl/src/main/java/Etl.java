@@ -2,23 +2,23 @@ import java.util.*;
 import java.util.stream.*;
 
 public class Etl {
-    public Map<String, Integer> transform(Map<Integer, List<String>> old) {
+    public static Map<String, Integer> transform(Map<Integer, List<String>> old) {
         return splitIntoPairs(old)
                 .map(Pair::getPairWithLowerCaseLetter)
                 .collect(toMapFromLetterToScore());
     }
 
-    private Stream<Pair> splitIntoPairs(Map<Integer, List<String>> scoreLists) {
-        return scoreLists.entrySet().stream()
+    private static Stream<Pair> splitIntoPairs(Map<Integer, List<String>> scoreLists) {
+        return scoreLists.entrySet().parallelStream()
                 .flatMap(scoreList -> splitIntoPairs(scoreList.getKey(), scoreList.getValue()));
     }
 
-    private Stream<Pair> splitIntoPairs(Integer score, List<String> letters) {
-        return letters.stream()
+    private static Stream<Pair> splitIntoPairs(Integer score, List<String> letters) {
+        return letters.parallelStream()
                 .map(letter -> new Pair(score, letter));
     }
 
-    private Collector<Pair, ?, Map<String, Integer>> toMapFromLetterToScore() {
+    private static Collector<Pair, ?, Map<String, Integer>> toMapFromLetterToScore() {
         return Collectors.toMap(Pair::getLetter, Pair::getScore);
     }
 

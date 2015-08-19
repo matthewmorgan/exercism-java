@@ -13,8 +13,7 @@ public class Crypto {
         plain = input.toLowerCase().replaceAll("[^\\w]", "");
         squareSize = new Double(Math.ceil(Math.sqrt(plain.length()))).intValue();
         plainSegs = makeSegments(plain);
-        buildCipherText();
-        cryptoSegs = makeSegments(crypto.toString());
+        cryptoSegs = makeSegments(buildCipherText());
     }
 
     public int getSquareSize() {
@@ -34,7 +33,7 @@ public class Crypto {
     }
 
     public String getNormalizedCipherText() {
-        return (cryptoSegs.stream().reduce("", (seg, nextSeg) -> seg += " " + nextSeg).trim());
+        return cryptoSegs.stream().reduce("", (seg, nextSeg) -> seg += " " + nextSeg).trim();
     }
 
     private List<String> makeSegments(String str) {
@@ -48,13 +47,15 @@ public class Crypto {
         return segs;
     }
 
-    private void buildCipherText() {
+    private String buildCipherText() {
+
         for (int ii = 0; ii < squareSize; ii++) {
             for (int jj = 0; jj < plainSegs.size(); jj++) {
                 crypto.append(plainSegs.get(jj).length() <= ii ? ""
                         : plainSegs.get(jj).substring(ii, ii + 1));
             }
         }
+        return crypto.toString();
     }
 }
 
