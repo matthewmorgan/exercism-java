@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class PigLatin {
 
     private static Pattern consonants = Pattern.compile("^((ch)|(th[r]?)|(sch)|(qu)|(squ))");
-    private static Pattern vowels = Pattern.compile("^([aeiou]|(yt)|(xr)){1}[a-z]*");
+    private static Pattern vowels = Pattern.compile("^([aeiou]|(yt)|(xr))");
 
     private static String translateVowelStart(String word){
         return word+"ay";
