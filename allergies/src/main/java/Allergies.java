@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Allergies {
@@ -15,7 +14,7 @@ public class Allergies {
 
     public List<Allergen> getList(){
         return Arrays.stream(Allergen.values())
-                .filter(allergen -> (allergen.getScore() & code) > 0)
-                .collect(Collectors.toList());
+                        .filter(this::isAllergicTo)
+                        .collect(Collectors.toList());
     }
 }

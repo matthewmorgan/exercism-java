@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HammingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-06-26T19:06:05" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.004">
+<testsuite name="HammingTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-10-04T17:55:08" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.042">
   <properties/>
-  <testcase name="testNoDifferenceBetweenIdenticalStrands" classname="HammingTest" time="0.003"/>
-  <testcase name="testSmallHammingDistance" classname="HammingTest" time="0.0"/>
-  <testcase name="testCompleteHammingDistanceOfForSingleNucleotideStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="testCompleteHammingDistanceOfForSingleNucleotideStrand" classname="HammingTest" time="0.04"/>
+  <testcase name="testNoDifferenceBetweenIdenticalStrands" classname="HammingTest" time="0.0"/>
   <testcase name="testCompleteHammingDistanceForSmallStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="testSmallHammingDistance" classname="HammingTest" time="0.0"/>
+  <testcase name="testSmallHammingDistanceInLongerStrand" classname="HammingTest" time="0.0"/>
+  <testcase name="testValidatesFirstStrandNotLonger" classname="HammingTest" time="0.0"/>
+  <testcase name="testValidatesOtherStrandNotLonger" classname="HammingTest" time="0.0"/>
+  <testcase name="testLargeHammingDistance" classname="HammingTest" time="0.0"/>
+  <testcase name="testHammingDistanceInVeryLongStrand" classname="HammingTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

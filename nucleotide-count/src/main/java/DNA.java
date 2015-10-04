@@ -10,7 +10,7 @@ public final class DNA {
     }
 
     private static Map<Character, Integer> getMapFromStrand(String strand){
-         return strand.chars().parallel()
+         return strand.chars()
                 .collect(Counts::new, Counts::increment, Counts::combine)
                 .buildMap();
     }

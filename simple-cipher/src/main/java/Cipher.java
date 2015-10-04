@@ -5,11 +5,10 @@ import java.util.stream.*;
 
 public class Cipher {
 
-    private static final int START =97;
-    private static final int END =122;
-    private static final int ALPHABET_LEN=26;
+    private static final int KEY_LEN = 100;
+    private static final String alph="abcdefghijklmnopqrstuvwxyz";
     private String[] key;
-    private Pattern re= Pattern.compile("[^a-z]+");
+    private static final Pattern re= Pattern.compile("[^a-z]+");
 
     public Cipher(){
         this.key=generateKey();
@@ -20,25 +19,23 @@ public class Cipher {
         this.key=key.split("");
     }
 
-    private String[] generateKey(){
-        return IntStream.range(0, 100).parallel()
+    private static String[] generateKey(){
+        return IntStream.range(0,KEY_LEN)
                 .mapToObj(val -> {
-                    Double code=Math.floor(Math.random()*ALPHABET_LEN)+ START;
-                    return (Character.toString((char) code.intValue()));
+                    int randomIndex=new Double(Math.floor(Math.random()*alph.length())).intValue();
+                    return alph.substring(randomIndex, randomIndex+1);
                 })
-                .collect(Collectors.toList()).toArray(new String[100]);
+                .collect(Collectors.toList()).toArray(new String[KEY_LEN]);
     }
 
     private String xCode(String input, boolean encode){
-        AtomicInteger index = new AtomicInteger();
+        AtomicInteger ii = new AtomicInteger();
         return Arrays.stream(input.split(""))
                 .map(letter -> {
-                    int offset = ((int) key[index.getAndIncrement() % key.length].charAt(0)) - START;
-                    offset = encode ? offset : -offset;
-                    int newCharCode = ((int) letter.charAt(0)) + offset;
-                    int wrapOffset = encode ? -ALPHABET_LEN : ALPHABET_LEN;
-                    newCharCode = (newCharCode > END || newCharCode < START) ? newCharCode + wrapOffset : newCharCode;
-                    return (Character.toString((char) newCharCode));
+                    String keyChar = key[ii.getAndIncrement() % KEY_LEN];
+                    int offset = encode ? alph.indexOf(keyChar) : -alph.indexOf(keyChar);
+                    int xCodedIndex = Math.floorMod(alph.indexOf(letter) + offset, alph.length());
+                    return alph.substring(xCodedIndex, xCodedIndex+1);
                 })
                 .collect(Collectors.joining(""));
     }
@@ -51,7 +48,8 @@ public class Cipher {
         return xCode(cipher, false);
     }
 
-    public String getKey() {
-        return Arrays.stream(key).collect(Collectors.joining(""));
-    }
+    public String getKey() { return Arrays.stream(key).collect(Collectors.joining("")); }
+
 }
+
+

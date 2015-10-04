@@ -12,12 +12,14 @@ public class Robot {
     };
 
     public void reset(){
+        String oldName = name;
         name="";
         while (name.isEmpty()){
             String test=generateName();
             if (!usedNames.contains(test)){
                 usedNames.add(test);
                 name=test;
+                usedNames.remove(oldName);
             }
         }
     };
