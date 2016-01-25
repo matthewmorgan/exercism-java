@@ -38,4 +38,9 @@ public class SieveTest {
 
         assertEquals(expectedOutput, sieve.getPrimes());
     }
+    @Test
+    public void findPrimesUpTo10000000000() {
+        Sieve sieve = new Sieve(10000000000);
+
+    }
 }

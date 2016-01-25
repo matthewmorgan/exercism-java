@@ -1,7 +1,7 @@
 public class SpaceAge {
-    double earthSecondsPerYear = 31557600;
-    double seconds = 0;
-    double earthYears = 0;
+    private static final double earthSecondsPerYear = 31557600;
+    private double seconds = 0;
+    private double earthYears = 0;
 
     private enum PLANET {
         EARTH(1),
@@ -13,7 +13,7 @@ public class SpaceAge {
         URANUS(84.016846),
         NEPTUNE(164.79132);
 
-        public double f;
+        private double f;
 
         PLANET(double factor) {
             this.f = factor;
