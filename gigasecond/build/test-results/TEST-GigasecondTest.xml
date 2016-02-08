@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GigasecondTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-06-27T11:00:46" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.029">
+<testsuite name="GigasecondTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-02T22:35:56" hostname="Matthew-Morgans-MacBook-Pro.local" time="0.04">
   <properties/>
-  <testcase name="modernTime" classname="GigasecondTest" time="0.028"/>
-  <testcase name="afterEpochTime" classname="GigasecondTest" time="0.0"/>
+  <testcase name="withFullTimeSpecified" classname="GigasecondTest" time="0.004"/>
+  <testcase name="modernTime" classname="GigasecondTest" time="0.035"/>
   <testcase name="beforeEpochTime" classname="GigasecondTest" time="0.0"/>
-  <testcase name="withFullTimeSpecified" classname="GigasecondTest" time="0.0"/>
+  <testcase name="afterEpochTime" classname="GigasecondTest" time="0.0"/>
   <testcase name="withFullTimeSpecifiedAndDayRollover" classname="GigasecondTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
