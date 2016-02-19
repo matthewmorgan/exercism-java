@@ -2,102 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0648ce46-b500-4414-bc2a-9c076dc05fe0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../anagram/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/classes/main/Triangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/classes/TriangleTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/css/base-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/js/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/reports/tests/packages/default-package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/test-results/TEST-TriangleTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/test-results/binary/test/output.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/test-results/binary/test/output.bin.idx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../triangle/build/test-results/binary/test/results.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../bob/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/classes/main/Bob.class" afterPath="$PROJECT_DIR$/../bob/build/classes/main/Bob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/../bob/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../gigasecond/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/classes/main/Gigasecond.class" afterPath="$PROJECT_DIR$/../gigasecond/build/classes/main/Gigasecond.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/../gigasecond/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/build/classes/main/TriangleException.class" afterPath="$PROJECT_DIR$/../triangle/build/classes/main/TriangleException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/build/classes/main/TriangleKind.class" afterPath="$PROJECT_DIR$/../triangle/build/classes/main/TriangleKind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/build/classes/test/TriangleTest.class" afterPath="$PROJECT_DIR$/../triangle/build/classes/test/TriangleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/../triangle/gradle/wrapper/gradle-wrapper.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/WordCount.class" afterPath="$PROJECT_DIR$/build/classes/main/WordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/WordCountTest.class" afterPath="$PROJECT_DIR$/build/classes/test/WordCountTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../anagram/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../anagram/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../anagram/.idea/misc.xml" afterPath="$PROJECT_DIR$/../anagram/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../anagram/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../anagram/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../anagram/src/main/java/Anagram.java" afterPath="$PROJECT_DIR$/../anagram/src/main/java/Anagram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../bob/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../bob/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bob/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/reports/tests/classes/BobTest.html" afterPath="$PROJECT_DIR$/../bob/build/reports/tests/classes/BobTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/../bob/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/reports/tests/packages/default-package.html" afterPath="$PROJECT_DIR$/../bob/build/reports/tests/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/build/test-results/TEST-BobTest.xml" afterPath="$PROJECT_DIR$/../bob/build/test-results/TEST-BobTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/src/main/java/Bob.java" afterPath="$PROJECT_DIR$/../bob/src/main/java/Bob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gigasecond/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/reports/tests/classes/GigasecondTest.html" afterPath="$PROJECT_DIR$/../gigasecond/build/reports/tests/classes/GigasecondTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/../gigasecond/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/reports/tests/packages/default-package.html" afterPath="$PROJECT_DIR$/../gigasecond/build/reports/tests/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/build/test-results/TEST-GigasecondTest.xml" afterPath="$PROJECT_DIR$/../gigasecond/build/test-results/TEST-GigasecondTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../gigasecond/src/main/java/Gigasecond.java" afterPath="$PROJECT_DIR$/../gigasecond/src/main/java/Gigasecond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sieve/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sieve/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../triangle/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/.idea/misc.xml" afterPath="$PROJECT_DIR$/../triangle/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../triangle/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../triangle/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../triangle/src/main/java/Triangle.java" afterPath="$PROJECT_DIR$/../triangle/src/main/java/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/WordCountTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/WordCountTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="$PROJECT_DIR$/build/reports/tests/js/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-WordCountTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-WordCountTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/WordCount.java" afterPath="$PROJECT_DIR$/src/main/java/WordCount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordCountTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordCountTest.java" />
     </list>
     <ignored path="word-count.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,11 +93,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.2567237">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -192,12 +105,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WordCountTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="WordCountTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/WordCountTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4767726">
-                  <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#348#365#0" expanded="false" />
+                    <element signature="e#435#452#0" expanded="false" />
+                    <element signature="e#1231#1248#0" expanded="false" />
+                    <element signature="e#1318#1335#0" expanded="false" />
+                    <element signature="e#1824#1841#0" expanded="false" />
+                    <element signature="e#1911#1928#0" expanded="false" />
+                    <element signature="e#2428#2445#0" expanded="false" />
+                    <element signature="e#2515#2532#0" expanded="false" />
+                    <element signature="e#2918#2935#0" expanded="false" />
+                    <element signature="e#3005#3022#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -620,6 +545,9 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Gradle.WordCountTest">
     <configuration default="false" name="WordCountTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -902,37 +830,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 45m 41s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 11m 47s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 49m 56s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 12m 09s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 50m 30s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 18m 57s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 51m 09s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 19m 35s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 51m 26s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 20m 33s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 52m 05s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 21m 02s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 52m 11s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 21m 10s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 52m 48s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 21m 22s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="WordCountTest - 2016.02.19 at 06h 53m 11s.xml">
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 21m 52s.xml">
+      <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WordCountTest - 2016.02.19 at 07h 22m 47s.xml">
       <configuration name="WordCountTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -941,8 +872,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.117197454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1164,14 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1208,23 +1131,131 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordCountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#348#365#0" expanded="false" />
+            <element signature="e#435#452#0" expanded="false" />
+            <element signature="e#1231#1248#0" expanded="false" />
+            <element signature="e#1318#1335#0" expanded="false" />
+            <element signature="e#1824#1841#0" expanded="false" />
+            <element signature="e#1911#1928#0" expanded="false" />
+            <element signature="e#2428#2445#0" expanded="false" />
+            <element signature="e#2515#2532#0" expanded="false" />
+            <element signature="e#2918#2935#0" expanded="false" />
+            <element signature="e#3005#3022#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2567237">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WordCountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4767726">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>word-count</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
