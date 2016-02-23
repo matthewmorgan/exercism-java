@@ -14,10 +14,10 @@ public final class WordCount {
                 .collect(toMapOfCountsByWord);
     }
 
-    private static final String cleaned(String input){
+    private static final String cleaned(String input) {
         return input.replaceAll(nonAlpha, "").toLowerCase();
     }
 
-    private static final Collector<String, ? ,Map<String, Integer>> toMapOfCountsByWord =
+    private static final Collector<String, ?, Map<String, Integer>> toMapOfCountsByWord =
             Collectors.groupingBy(String::new, Collectors.mapping(Function.identity(), Collectors.summingInt(word -> 1)));
 }

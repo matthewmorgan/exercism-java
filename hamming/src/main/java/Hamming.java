@@ -7,7 +7,7 @@ public class Hamming {
                 .reduce(0, (count, ii)-> areDifferent(count, ii, a, b));
     }
 
-    public static Integer areDifferent(int accum, int index, String a, String b){
+    private static Integer areDifferent(int accum, int index, String a, String b){
         if (a.charAt(index) != b.charAt(index)) accum++;
         return accum;
     }
